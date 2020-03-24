@@ -1,0 +1,29 @@
+.search-bar-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.searchTerm {
+  width: 100%;
+  padding: .5% .5%;
+}
+
+.form-label {
+  align-self: flex-start;
+}
+.submit-search-button {
+  margin-top: 5%;
+  width: 50%;
+  padding: 1%;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.submit-search-button:hover {
+  cursor: pointer;
+}
+.error-message {
+  color: tomato;
+}
+

@@ -1,0 +1,21 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aliceblue;
+  min-height: 100vh;
+}
+
+.app-title {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.5rem;
+}
+.search-fields {
+  width: 50%
+}
+.results-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%
+}

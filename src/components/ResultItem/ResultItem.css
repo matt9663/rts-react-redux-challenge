@@ -1,0 +1,12 @@
+.result-item {
+  background-color: sandybrown;
+  border-radius: 5px;
+  padding: .5% 1%;
+  margin: 1% 0;
+}
+
+.article-data {
+  display: flex;
+  justify-content: space-between;
+}
+

@@ -1,6 +1,7 @@
 import React from 'react';
-import ResultItem from '../ResultItem/ResultItem'
-import { useSelector } from 'react-redux' 
+import ResultItem from '../ResultItem/ResultItem';
+import { useSelector } from 'react-redux' ;
+import './ResultsList.css';
 
 const ResultsList = () => {
   const articles = useSelector(state => state.articlesReducer)

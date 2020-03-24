@@ -1,4 +1,5 @@
 import React from 'react'
+import './ResultItem.css'
 
 const ResultItem = ({ article }) => {
   return (
@@ -6,8 +7,11 @@ const ResultItem = ({ article }) => {
       <a href={article.url} target='_blank' rel="noopener noreferrer">
         <h3>{article.title}</h3>
       </a>
-      <span className='author'>{article.author}</span>
-      <span className='publish-date'>{article.created_at}</span>
+      <div className='article-data'>
+        <span className='points'>{article.points} points</span>
+        <span className='author'>By: {article.author}</span>
+        <span className='publish-date'>Published: {article.created_at}</span>
+      </div>
     </li>
   )
 }
